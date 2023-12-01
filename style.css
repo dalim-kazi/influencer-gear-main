@@ -1,0 +1,155 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #F3F1FF;
+}
+.containar{
+  width: 970px;
+  height: auto;
+  background-color: white;
+  margin-left: 250px;
+  padding: 30px;
+}
+.link{
+  font-size: 20px;
+  font-weight: 700;
+}
+.info{
+  font-size: 16px;
+}
+nav a{
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.cemera-para{
+  margin-top: 120px;
+  width: 606px;
+ height: 270px;
+ margin-right:109px;
+}
+#para{
+  font-weight: 700;
+  font-size: 45px;
+  color: #3A3A3A;
+}
+.banner{
+  display: flex;
+}
+ .cemera img{
+  margin-top:50px ;
+  width: 410px;
+  height: 390px;
+ }
+ .para{
+  color: #3A3A3A;
+ }
+ .button{
+   margin-top: 20px;
+  text-decoration: none;
+  background: #E02C6D;
+  color: #FFFFFF;
+  padding: 10px 24px;
+  border-radius: 41px;
+ }
+ /* part two */
+ .logos img{
+  margin-top: 80px;
+   margin-left: 60px;
+   font-size: 10px;
+   width: 70px;
+ }
+ .logos{
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15) ;
+   padding-bottom: 50px;
+   height: 130px;
+ }
+ /* three-part */
+ .pragraup{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+ }
+ .img{
+  border-radius: 5px;
+  width: 230px;
+  height: 256px;
+ }
+ .img-para{
+  width: 220px;
+  height: 450px;
+  padding: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-top: 80px;
+  gap: 10px;
+ }
+ .star{
+  color: gold;
+ }
+ span{
+  color: black;
+ }
+ .thard-part{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ }
+ /* four-part */
+ .four-part{
+  display: flex;
+  margin-top: 90px;
+ }
+ .four-img img{
+  width: 404px;
+  height: 270px;
+  border-radius: 5px;
+  margin-right: 100px;
+ }
+ .four-para{
+  width: 610px;
+  height: 224px;
+ }
+ .link-button{
+  text-decoration: none;
+  background: #E02C6D;
+  padding:10px 30px;
+  border-radius: 41px;
+  color: white;
+ }
+ #coluem{
+  font-weight: 700;
+  font-size: 38px;
+ }
+ #row{
+  font-weight: 700;
+  font-size: 16px;
+  color: #6C6C6C;
+ }
+ /* five-part */
+ footer {
+  text-align: center;
+   margin-top: 40px;
+   background: #171414;
+   color: white;
+   min-height: 100%;
+    padding: 20px;
+     margin-bottom: auto;
+     margin-right: 0;
+ }
+ /* media varsion */
+ @media screen  and (max-width:688px){
+  .containar{
+    width: 100%;
+  }
+  span .banner{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  nav .cemera{
+   flex-direction: column;
+  }
+ }
